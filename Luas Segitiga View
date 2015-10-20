@@ -1,0 +1,31 @@
+# luas segitiga view
+
+package MENU;
+
+import KELAS.luasSegitiga;
+
+public class Segitiga extends javax.swing.JPanel {
+
+    public Segitiga() {
+        initComponents();
+    }
+    
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {                                         
+    luasSegitiga s = new luasSegitiga();
+    double alas = Double.parseDouble(jTextField1.getText());
+    double tinggi = Double.parseDouble(jTextField2.getText());
+    double hasil = s.lsegit(alas, tinggi);
+    jLabelhasil4.setText(""+hasil);
+// TODO add your handling code here:
+    }                                        
+
+
+    // Variables declaration - do not modify                     
+    private javax.swing.JButton jButton1;
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabelhasil4;
+    private javax.swing.JTextField jTextField1;
+    private javax.swing.JTextField jTextField2;
+    // End of variables declaration                   
+}
