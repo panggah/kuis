@@ -1,0 +1,15 @@
+# kelas luas lingkaran
+
+package KELAS;
+
+/**
+ *
+ * @author ASPIRE V5-471
+ */
+public class luasLingkaran {
+    double luas;
+    public double luaslingkar(double jari2){
+        luas = 3.14 * jari2 * jari2;
+        return luas;
+    }
+}
