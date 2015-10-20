@@ -1,0 +1,15 @@
+# kelas luas segitiga
+
+package KELAS;
+
+/**
+ *
+ * @author ASPIRE V5-471
+ */
+public class luasSegitiga {
+    double luas;
+    public double lsegit(double alas, double tinggi){
+        luas = (alas*tinggi)/2;
+        return luas;  
+    }
+}
