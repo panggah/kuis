@@ -1,0 +1,15 @@
+# kelas persegi panjang
+
+package KELAS;
+
+/**
+ *
+ * @author ASPIRE V5-471
+ */
+public class luasPersegi {
+    public int persegi(int sisi){
+        int luas;
+        luas = sisi*sisi;
+        return luas;  
+    }
+}
